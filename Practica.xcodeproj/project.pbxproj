@@ -220,7 +220,6 @@
 				37CA165928F8DDEB00495B2B /* App */,
 				37CA165628F8DDA200495B2B /* Resources */,
 				37CA165828F8DDD000495B2B /* Utils */,
-				37CA165728F8DDB800495B2B /* Extensions */,
 				37CA165528F8DD8A00495B2B /* Models */,
 				37CA165428F8DD4900495B2B /* UI */,
 				37CA163028F8D9BE00495B2B /* Preview Content */,
@@ -281,13 +280,6 @@
 				37CA162D28F8D9BE00495B2B /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		37CA165728F8DDB800495B2B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		37CA165828F8DDD000495B2B /* Utils */ = {
