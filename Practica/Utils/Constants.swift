@@ -11,7 +11,7 @@ enum Status {
     case Init, Home
 }
 
-enum ViewStatus {
+enum ViewStatus: Equatable {
     case loading, loaded, error(error: String)
 }
 

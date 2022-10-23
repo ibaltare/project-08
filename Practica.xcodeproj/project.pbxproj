@@ -21,10 +21,13 @@
 		3756D52A2901037E00F185C5 /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756D5292901037E00F185C5 /* CharacterRowView.swift */; };
 		3756F8932901D3AF00DB8934 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756F8922901D3AF00DB8934 /* DetailViewModel.swift */; };
 		3756F8952901D94F00DB8934 /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756F8942901D94F00DB8934 /* ComicModel.swift */; };
+		3773E4632904B581006B1097 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773E4622904B581006B1097 /* MainViewModelTest.swift */; };
+		3773E4652904C8EA006B1097 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773E4642904C8EA006B1097 /* HomeViewModelTest.swift */; };
+		3773E4672904F9E5006B1097 /* DetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773E4662904F9E5006B1097 /* DetailViewModelTest.swift */; };
+		3773E4692904FE0D006B1097 /* NetworkServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3773E4682904FE0D006B1097 /* NetworkServiceTest.swift */; };
 		37CA162A28F8D9BC00495B2B /* PracticaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA162928F8D9BC00495B2B /* PracticaApp.swift */; };
 		37CA162E28F8D9BE00495B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CA162D28F8D9BE00495B2B /* Assets.xcassets */; };
 		37CA163228F8D9BE00495B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CA163128F8D9BE00495B2B /* Preview Assets.xcassets */; };
-		37CA163C28F8D9BE00495B2B /* PracticaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA163B28F8D9BE00495B2B /* PracticaTests.swift */; };
 		37CA164628F8D9BE00495B2B /* PracticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA164528F8D9BE00495B2B /* PracticaUITests.swift */; };
 		37CA164828F8D9BE00495B2B /* PracticaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA164728F8D9BE00495B2B /* PracticaUITestsLaunchTests.swift */; };
 		37CA166028F8E2FF00495B2B /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA165F28F8E2FF00495B2B /* InitView.swift */; };
@@ -63,13 +66,16 @@
 		3756D52B2901192600F185C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3756F8922901D3AF00DB8934 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		3756F8942901D94F00DB8934 /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
+		3773E4622904B581006B1097 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
+		3773E4642904C8EA006B1097 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		3773E4662904F9E5006B1097 /* DetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTest.swift; sourceTree = "<group>"; };
+		3773E4682904FE0D006B1097 /* NetworkServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTest.swift; sourceTree = "<group>"; };
 		37CA162628F8D9BC00495B2B /* Practica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA162928F8D9BC00495B2B /* PracticaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaApp.swift; sourceTree = "<group>"; };
 		37CA162D28F8D9BE00495B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CA162F28F8D9BE00495B2B /* Practica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Practica.entitlements; sourceTree = "<group>"; };
 		37CA163128F8D9BE00495B2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37CA163728F8D9BE00495B2B /* PracticaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37CA163B28F8D9BE00495B2B /* PracticaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaTests.swift; sourceTree = "<group>"; };
 		37CA164128F8D9BE00495B2B /* PracticaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA164528F8D9BE00495B2B /* PracticaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaUITests.swift; sourceTree = "<group>"; };
 		37CA164728F8D9BE00495B2B /* PracticaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticaUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -238,7 +244,10 @@
 		37CA163A28F8D9BE00495B2B /* PracticaTests */ = {
 			isa = PBXGroup;
 			children = (
-				37CA163B28F8D9BE00495B2B /* PracticaTests.swift */,
+				3773E4622904B581006B1097 /* MainViewModelTest.swift */,
+				3773E4642904C8EA006B1097 /* HomeViewModelTest.swift */,
+				3773E4662904F9E5006B1097 /* DetailViewModelTest.swift */,
+				3773E4682904FE0D006B1097 /* NetworkServiceTest.swift */,
 			);
 			path = PracticaTests;
 			sourceTree = "<group>";
@@ -486,7 +495,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CA163C28F8D9BE00495B2B /* PracticaTests.swift in Sources */,
+				3773E4672904F9E5006B1097 /* DetailViewModelTest.swift in Sources */,
+				3773E4632904B581006B1097 /* MainViewModelTest.swift in Sources */,
+				3773E4692904FE0D006B1097 /* NetworkServiceTest.swift in Sources */,
+				3773E4652904C8EA006B1097 /* HomeViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

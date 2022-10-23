@@ -11,7 +11,6 @@ import Combine
 final class HomeViewModel: ObservableObject {
     @Published var status = ViewStatus.loading
     @Published var characters:[Character]?
-    //@EnvironmentObject var mainViewModel: MainViewModel
     private var suscriptor = Set<AnyCancellable>()
     
     init(){
@@ -34,6 +33,6 @@ final class HomeViewModel: ObservableObject {
                 self.characters = data.data.results
             }
             .store(in: &suscriptor)
-
     }
+    
 }
