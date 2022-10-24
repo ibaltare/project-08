@@ -16,23 +16,29 @@ struct ComicView: View {
             AsyncImage(url: URL(string: comic.thumbnail.path + "." + comic.thumbnail.thumbnailExtension)) { photoDownload in
                 photoDownload
                     .resizable()
-                    .aspectRatio(contentMode:.fit)
-                    .cornerRadius(radius)
             } placeholder: {
                 Image(systemName: "photo")
                     .resizable()
-                    .aspectRatio(contentMode:.fit)
-                    .cornerRadius(radius)
                     .opacity(0.6)
             }
+            #if os(watchOS)
+            .frame(width: 120, height: 150, alignment: .center)
+            #endif
+            .aspectRatio(contentMode:.fit)
+            .cornerRadius(radius)
             .padding()
             .shadow(color: .black , radius: 12)
-            
+            #if os(watchOS)
+            Text("\(comic.title)")
+                .font(.body)
+                .padding()
+            #else
             Text("\(comic.title)")
                 .font(.title)
                 .padding()
             Text("\(comic.description ?? "Sin descripción")")
                 .padding()
+            #endif
             
         }
         .padding()

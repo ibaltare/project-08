@@ -15,6 +15,12 @@ struct InitView: View {
     
     var body: some View {
         VStack{
+            #if os(watchOS)
+            Image("marvel")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            #else
             Image("fondo1")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -26,15 +32,21 @@ struct InitView: View {
                         scale = 1.0
                     }
                 }
-            
+            #endif
             Button {
                 mainViewModel.status = .Home
             } label: {
                 Text("Entrar")
+                    #if os(watchOS)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .frame(width: 100, height: 30)
+                    #else
                     .font(.title)
+                    .frame(width: 200, height: 50)
+                    #endif
                     .foregroundColor(.white)
                     .padding()
-                    .frame(width: 200, height: 50)
                     .background(Color.blue)
                     .cornerRadius(15)
             }

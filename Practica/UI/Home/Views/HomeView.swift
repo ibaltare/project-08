@@ -26,7 +26,11 @@ struct HomeView: View {
                             NavigationLink {
                                 DetailView(viewModel: DetailViewModel(characterID: character.id))
                             } label: {
-                                CharacterRowView(character: character)
+                                #if os(watchOS)
+                                    CharacterWatchView(character: character)
+                                #else
+                                    CharacterRowView(character: character)
+                                #endif
                             }
                         }
                     }

@@ -24,15 +24,26 @@ struct DetailView: View {
                     }
                 }else {
                     VStack{
+                        #if os(watchOS)
+                        Image("not-found")
+                            .resizable()
+                            .frame(width: 100, height: 135, alignment: .init(horizontal: .center, vertical: .center))
+                            .aspectRatio(contentMode:.fit)
+                            .padding()
+                            .shadow(color: .black, radius: 16)
+                        Text("Sin Resultados")
+                            .font(.footnote)
+                        #else
                         Image("not-found")
                             .resizable()
                             .aspectRatio(contentMode:.fit)
-                            .foregroundColor(.blue)
                             .padding()
                             .shadow(color: .black, radius: 16)
                         Text("Sin Resultados")
                             .fontWeight(.bold)
                             .font(.title)
+                        #endif
+                        
                     }
                 }
             }
